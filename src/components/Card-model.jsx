@@ -1,11 +1,17 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-const CardModel = ()=>{
+const CardModel = ({img})=>{
     
+
+
+  const path =  `../public/${img}.jpg`
+
+  
+
     return (
       <Card style={{ width: '100%', marginBottom: '1.5rem' }}>
-        <Card.Img variant="top" src="../public/1.jpg" />
+        <Card.Img variant="top" src={ path }/>
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
           <Card.Text>

@@ -8,13 +8,13 @@ const CardGrid = ()=> {
 
   return (
     <Container>
-    <Row mt-5>
-      <Col xs={12} md={6} lg={4} > {<CardModel />} </Col>
-      <Col xs={12} md={6} lg={4} > {<CardModel />} </Col>
-      <Col xs={12} md={6} lg={4} > {<CardModel />} </Col>
-      <Col xs={12} md={6} lg={4} > {<CardModel />} </Col>
-      <Col xs={12} md={6} lg={4} > {<CardModel />} </Col>
-      <Col xs={12} md={6} lg={4} > {<CardModel />} </Col>
+    <Row>
+      <Col xs={12} md={6} lg={4} > {<CardModel img={1} />} </Col>
+      <Col xs={12} md={6} lg={4} > {<CardModel img={2} />} </Col>
+      <Col xs={12} md={6} lg={4} > {<CardModel img={3} />} </Col>
+      <Col xs={12} md={6} lg={4} > {<CardModel img={4} />} </Col>
+      <Col xs={12} md={6} lg={4} > {<CardModel img={5}/>} </Col>
+      <Col xs={12} md={6} lg={4} > {<CardModel img={6}/>} </Col>
     </Row>
   </Container>
 );
